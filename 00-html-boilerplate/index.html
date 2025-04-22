@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!--lang attributes are used for accessibility, e.g. for screen readers to invoke correct pronunciations-->
+<html lang="en">
+
+  <!--head stores metadata, doesn't actually affect the page-->
+  <head>
+    <!--ensures consistency in displaying symbols and characters across languages-->
+    <meta charset="UTF-8">
+    <title>XDD</title>
+  </head>
+
+  <body>
+    <p>I am writing this sentence on for very wrong so that it will need to break into a new line, in order
+    to display the fact that the paragraph tag works very well for stuff like this, I hope this is long enough
+    because this is starting to not make much sense anymore.</p>
+    <p>The second paragraph.</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <!--use <strong> when you wish to show that this text has importance or significance-->
+    <p>This word is in <b>bold</b></p>
+    <!--use <strong> when you wish to show that this text requires emphasis-->
+    <p>This word is in <i>italics</i></p>
+    <!--<b> and <i> only for stylistic purposes, while <strong> and <em> carry semantic meaning-->
+  </body>
+
+  <ul>
+    <li>This</li>
+    <li>is</li>
+    <li>an</li>
+    <li>Unordered List (bullet points)</li>
+  </ul>
+
+  <ol>
+    <li>This</li>
+    <li>is</li>
+    <li>an</li>
+    <li>Ordered List (numbered)</li>
+  </ol>
+
+  <!--target="_blank" ensures that the link is opened in a new tab-->
+  <!--noopener ensures that the opened link cannot modify the original page (through js scripts for example)-->
+  <!--noreferrer ensures that the opened link does not know which page sent the user there and also includes
+  the behaviour of noopener-->
+  <p>Go check out <a href="https://www.theodinproject.com/about" target="_blank"
+    rel="noopener noreferrer">The Odin Project</a></p>
+
+  <p> Relative <a href="pages/childPage.html">Page</a></p>
+
+  <!--xdd-->
+  <img src="images/xdd.png" alt="xdd">
+  <!--alt is used as an description in case the image can't be loaded for whatever reason-->
+</html>
